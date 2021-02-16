@@ -158,7 +158,7 @@ Afin d'enrichir l'expérience de jeu, introduisez plusieurs classes de personnag
   - Magicien / Magicienne : dégâts supplémentaires 
   - etc...
 
-Utilisez les fonctions d'héritages offertes par Typescript pour implémenter ces classes.
+Utilisez les fonctions d'héritages offertes par Typescript pour implémenter ces classes. N'hésitez pas à mettre en place des classes abstraites si cela vous semble pertinent.
  
     
 #### 11. Ajout des armes
@@ -173,3 +173,8 @@ Générez une liste d'armes de votre choix, et offrez la possibilité au joueur 
 Modifiez la méthode `attack` afin de prendre en paramètre supplémentaire optionnel une arme. Modifier l'implémentation de la méthode afin d'intégrer les dégâts de l'arme lorsqu'elle est utilisée. 
  
 
+#### 12. Bonus
+
+Lorsqu'un joueur bat en retraite, faites en sorte que l'ennemi lance une provocation afin de tenter de le faire revenir au combat. Pour la réplique, vous pourrez utiliser celles du Maître d'Armes de Kaamelott, accessibles à l'adresse :
+
+[Répliques](https://kaamelott.hotentic.com/api/random/personnage/Le%20Ma%C3%AEtre%20d'Armes) 
